@@ -75,9 +75,13 @@ Before you begin, ensure you have met the following requirements:
 
 2.  View Expenses:
 
-    Send a GET request to /api/expenses to view all expenses.
-    Send a GET request to /api/expenses/user/:userId to view expenses for a specific user.
+    - Send a GET request to /api/expenses to view all expenses.
+    - Send a GET request to /api/expenses/user/:userId to view expenses for a specific user.
 
-3.  Download Balance Sheet:
+3. Add user
+      - Send a post request to /api/signup to add user.
+      - Send a post request to /api/login to login.
+
+4.  Download Balance Sheet:
 
     Send a GET request to /api/expenses/balance-sheet to download the balance sheet as a CSV file.
