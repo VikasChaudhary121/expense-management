@@ -53,27 +53,25 @@ Before you begin, ensure you have met the following requirements:
 1.  add expenses
     Send a POST request to /api/expenses with the following JSON body:
 
-            {
-
-    "description": "restorent bill",
-    "amount": 3000,
-    "paidBy": "66a69393ccbd54caf77b1e04",
-    "participants": [
-    {
-    "user": "66a69393ccbd54caf77b1e04",
-    "amount": 1000
-    },
-    {
-    "user": "66a693a6ccbd54caf77b1e08",
-    "amount": 1000
-    },
-    {
-    "user": "66a693b2ccbd54caf77b1e0b",
-    "amount": 1000
-    }
-    ],
-    "splitMethod": "equal"
-    }
+            { "description": "restorent bill",
+            "amount": 3000,
+          "paidBy": "66a69393ccbd54caf77b1e04",
+          "participants": [
+                               {
+                               "user": "66a69393ccbd54caf77b1e04",
+                                  "amount": 1000
+                               },
+                               {
+                               "user": "66a693a6ccbd54caf77b1e08",
+                               "amount": 1000
+                               },
+                               {
+                               "user": "66a693b2ccbd54caf77b1e0b",
+                               "amount": 1000
+                               }
+                  ],
+                   "splitMethod": "equal"
+                }
 
 2.  View Expenses:
 
